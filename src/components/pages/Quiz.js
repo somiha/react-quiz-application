@@ -38,6 +38,7 @@ export default function Quiz() {
   const { currentUser } = useAuth();
   const history = useNavigate();
   const location = useLocation();
+  // eslint-disable-next-line
   const { state } = location;
 
   console.log(location);
